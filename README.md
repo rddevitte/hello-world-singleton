@@ -5,12 +5,12 @@ Just a fun way of overcomplicating a simple "hello world" program by using the
 
 ## Build
 
-`bash build.sh`
+`bash build.sh` or `./build.sh`
 
 ## Run
 
-`./_build/src/hello-world-singleton`
+`./_install/bin/hello-world-singleton`
 
 ## Clean
 
-`rm -rf _build/`
+`rm -rf _build/ _install/`

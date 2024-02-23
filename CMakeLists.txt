@@ -6,7 +6,6 @@ add_compile_options(-Wall -Wextra -Werror -Wconversion -pedantic)
 
 set(CMAKE_CXX_STANDARD 11)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_EXTENSIONS OFF)
 
 add_subdirectory("${PROJECT_SOURCE_DIR}/src")
-
-target_include_directories(hello-world-singleton PUBLIC "${PROJECT_SOURCE_DIR}/include")
